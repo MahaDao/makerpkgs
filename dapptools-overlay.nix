@@ -7,7 +7,7 @@
 let
   fetchDapptoolsVersion = { rev, sha256 }: fetchgit {
     inherit rev sha256;
-    url = "https://github.com/dapphub/dapptools";
+    url = "https://github.com/maharajadao/dapptools";
     fetchSubmodules = true;
   };
 in rec {
@@ -15,8 +15,8 @@ in rec {
   latest = seth-0_8_4;
 
   seth-0_8_4 = fetchDapptoolsVersion {
-    rev = "72f23c671495e48e2a9558b753c111121fa2c2a8";
-    sha256 = "1h9wllbgnwyrpqyvij70zgk0n9d1gg5qy46l5bgpf4b58092547d";
+    rev = "ae6a9139e3f5ed1a7ca86048c94610e23bafe474";
+    sha256 = "0v9rgk292wx9h9v0ljyc2x77187dcjgblh3g8f09g21d2q6xpvkq";
   };
 
   dapp-0_26_0 = fetchDapptoolsVersion {
