@@ -16,7 +16,7 @@ in rec {
 
   seth-0_8_4 = fetchDapptoolsVersion {
     rev = "ae6a9139e3f5ed1a7ca86048c94610e23bafe474";
-    sha256 = "0v9rgk292wx9h9v0ljyc2x77187dcjgblh3g8f09g21d2q6xpvkq";
+    sha256 = "0ki8qdcwf7xyi1jffcn1ijjgjgiaqd4nhqi3r2ffkwayj2q71yii";
   };
 
   dapp-0_26_0 = fetchDapptoolsVersion {
